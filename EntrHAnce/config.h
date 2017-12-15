@@ -27,14 +27,14 @@
 
 // Enable/Disable Entry Monitoring
 
-#define ENTRY1_ENABLE true
-#define ENTRY2_ENABLE false
-#define ENTRY3_ENABLE false
-#define ENTRY4_ENABLE false
-#define ENTRY5_ENABLE false
-#define ENTRY6_ENABLE false
-#define ENTRY7_ENABLE false
-#define ENTRY8_ENABLE false
+#define ENTRY1_ENABLED true
+#define ENTRY2_ENABLED false
+#define ENTRY3_ENABLED false
+#define ENTRY4_ENABLED false
+#define ENTRY5_ENABLED false
+#define ENTRY6_ENABLED false
+#define ENTRY7_ENABLED false
+#define ENTRY8_ENABLED false
 
 // Entry Aliases
 
