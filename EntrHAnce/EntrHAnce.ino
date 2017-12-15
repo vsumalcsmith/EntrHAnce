@@ -602,14 +602,23 @@ void publish_birth_message() {
 
 void processReceivedMessage(String topic, String payload) {
   if (topic == commandTopicStr && payload == "STATUS") {
-    publish_entry1_status;
-    publish_entry2_status;
-    publish_entry3_status;
-    publish_entry4_status;
-    publish_entry5_status;
-    publish_entry6_status;
-    publish_entry7_status;
-    publish_entry8_status;
+    if (entry1_enabled) { publish_entry1_status;
+    }
+    if (entry2_enabled) { publish_entry2_status;
+    }
+    if (entry3_enabled) { publish_entry3_status;
+    }
+    if (entry4_enabled) { publish_entry4_status;
+    }
+    if (entry5_enabled) { publish_entry5_status;
+    }
+    if (entry6_enabled) { publish_entry6_status;
+    }
+    if (entry7_enabled) { publish_entry7_status;
+    }
+    if (entry8_enabled) { publish_entry8_status;
+    }
+    
   }
   else { 
     Serial.println("Unrecognized topic or payload... doing nothing!");
